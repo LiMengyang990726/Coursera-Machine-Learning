@@ -13,9 +13,17 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
+% disp(size(X));
+% disp(size(theta));
+% through the above, we found that h should be X*theta;
 
+% y is the actual answer
+% h is the hypothesis
+h = X*theta;
+cost = (h-y).^2;
+coeff = 1/(2*m);
 
-
+J = cost/coeff;
 
 % =========================================================================
 

@@ -75,9 +75,9 @@ i.e., all of our training examples lie perfectly on some straight line.
 
 ### Quiz 3
 
-1. A = [1 , -4 ; -2 , 1], B = [0 , 3 ; 5 , 8], A + B = ?
+1. A = [1 -4 ; -2 1], B = [0 3 ; 5 8], A + B = ?
 
-**Answer:** [1 , -1 ; 3 , 9]
+**Answer:** [1 -1 ; 3 9]
 
 2. Let x = [5 ; 5 ; 2 ; 7], 2 * x = ?
 
@@ -85,7 +85,7 @@ i.e., all of our training examples lie perfectly on some straight line.
 
 3. Let u be a 3-dimensional vector, where specifically u = [8 ; 1 ; 4]. What is the transpose of u?
 
-**Answer:** [8 , 1 , 4]
+**Answer:** [8 1 4]
 
 4. Let u and v be 3-dimensional vectors, where specifically u = [4 ; -4 ; -3], v = [4 ; 2 ; 4]. What is the result of the transpose of u times v?
 
