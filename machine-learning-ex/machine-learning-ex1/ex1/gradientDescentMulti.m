@@ -1,6 +1,6 @@
-function [theta, J_history] = gradientDescent(X, y, theta, alpha, num_iters)
-%GRADIENTDESCENT Performs gradient descent to learn theta
-%   theta = GRADIENTDESCENT(X, y, theta, alpha, num_iters) updates theta by 
+function [theta, J_history] = gradientDescentMulti(X, y, theta, alpha, num_iters)
+%GRADIENTDESCENTMULTI Performs gradient descent to learn theta
+%   theta = GRADIENTDESCENTMULTI(x, y, theta, alpha, num_iters) updates theta by
 %   taking num_iters gradient steps with learning rate alpha
 
 % Initialize some useful values
@@ -14,15 +14,21 @@ for iter = 1:num_iters
     %               theta. 
     %
     % Hint: While debugging, it can be useful to print out the values
-    %       of the cost function (computeCost) and gradient here.
+    %       of the cost function (computeCostMulti) and gradient here.
     %
 
-    theta = theta - 2 * alpha * J_history * X;
+    h = X*theta;
+    cost = h-y;
+    expand = repmat(cost,1,size(X,2));
+    coeff = (alpha/m);
+    delta = coeff*sum(X.*expand);
     
+    theta = (theta' - delta)';
+
     % ============================================================
 
     % Save the cost J in every iteration    
-    J_history(iter) = computeCost(X, y, theta);
+    J_history(iter) = computeCostMulti(X, y, theta);
 
 end
 

@@ -38,12 +38,15 @@ Kind of complex to get Octave installed on Mac-Mojave
 As Homebrew does not drop privileges on installation you would be giving all
 build scripts full access to your system.`)
 
-3. install XQuartz `brew install Caskroom/cask/xquartz`
+3.
+i) install XQuartz `brew install Caskroom/cask/xquartz`
 
 As you might have the error `homebrew install fails with LibreSSL SSL_read: SSL_ERROR_SYSCALL`
 
 You may want to try `sudo chown -R $(whoami) $(brew --prefix)/*` (Note: `sudo chown -R $(whoami) /usr/local` doesn't work any more after High Sierra)
 
 Then `brew install Caskroom/cask/xquartz`
+
+ii) or install from the website: https://www.xquartz.org/
 
 4. install octave `brew install octave`

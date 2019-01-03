@@ -15,6 +15,7 @@ theta = zeros(size(X, 2), 1);
 X_trans = X';
 theta = pinv(X_trans*X) * X_trans * y;
 
+
 % -------------------------------------------------------------
 
 

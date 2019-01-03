@@ -27,10 +27,10 @@ sigma = zeros(1, size(X, 2));
 %       
 
 mu = mean(X,1);
-sigma = std(A);
+sigma = std(X);
 
 X_norm = bsxfun(@minus,mean(X,1),X_norm);
-X_norm = X_norm./std(A);
+X_norm = X_norm./std(X);
 
 % ============================================================
 

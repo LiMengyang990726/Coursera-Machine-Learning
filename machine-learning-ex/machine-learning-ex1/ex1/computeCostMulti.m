@@ -13,13 +13,19 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
+disp('ComputeCostMulti now');
 % y is the actual answer
 % h is the hypothesis
+
+disp(size(X));
+disp(size(theta));
 h = X*theta;
 cost = (h-y).^2;
 coeff = 1/(2*m);
 
-J = cost/coeff;
+J = sum(coeff*cost);
+
+
 
 % =========================================================================
 
