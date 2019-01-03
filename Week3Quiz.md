@@ -29,6 +29,14 @@ ii) Our estimate for P(y=0∣x;θ) is 0.3.
 
 2. Suppose you have the following training set, and fit a logistic regression classifier h<sub>θ</sub>(x)=g(θ<sub>0</sub>+θ<sub>1</sub>x<sub>1</sub>+θ<sub>2</sub>x<sub>2</sub>).
 
+
+
+
+
+
+
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week3Quiz1-2.png)
+
 **Answer:**
 
 i) Adding polynomial features could increase how well we can fit the training data.
@@ -37,6 +45,8 @@ ii) At the optimal value of θ (e.g., found by fminunc), we will have J(θ)≥0.
 
 3.
 
+
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week3Quiz1-3.png)
 
 4. Which of the following statements are true? Check all that apply.
 
@@ -63,6 +73,9 @@ Suppose θ<sub>0</sub>=6,θ<sub>1</sub>=−1,θ<sub>2</sub>=0. Which of the foll
 
 **Answer:**
 
+
+
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week3Quiz1-5.png)
 ### Quiz2: Regularization
 
 1.
