@@ -3,6 +3,8 @@
 ### Highlights:
 
 1. An advanced optimization algorithm (faster than gradient descent) is using `fminunc`
+
+**Without Regularization**
 ```
 function [jval,gradient] = costFunction(theta)
   jval =                % code to compute J(theta)
@@ -13,6 +15,15 @@ function [jval,gradient] = costFunction(theta)
 options = optimset('GradObj', 'on', 'MaxIter', 100);
 initialTheta = zeros(2,1);
 [optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options);
+```
+
+**With Regularization**
+```
+function [jval,gradient] = costFunction(theta)
+  jval =                                  % code to compute J(theta)
+  gradient = zeros(2,1)                   % initialize a size for gradient
+  gradient(1) =                           % code to compute gradient1
+  gradient(2) =    +(lambda/m)*theta1     % code to compute gradient2
 ```
 
 ### Quiz1: Logstic Regression
@@ -65,17 +76,55 @@ Suppose θ<sub>0</sub>=6,θ<sub>1</sub>=−1,θ<sub>2</sub>=0. Which of the foll
 
 ### Quiz2: Regularization
 
-1.
+1. You are training a classification model with logistic
+
+regression. Which of the following statements are true? Check
+
+all that apply.
 
 **Answer:**
+
+A) Adding many new features to the model helps prevent overfitting on the training set.
+
+> Wrong. This will lead to overfitting
+
+B) Adding a new feature to the model always results in equal or better performance on the training set.
+
+> Correct.
+
+C) Introducing regularization to the model always results in equal or better performance on the training set.
+
+> Wrong. Can lead to underfitting
+
+D) Introducing regularization to the model always results in equal or better performance on examples not in the training set.
+
+> Wrong. Underfitting will lead to worse performance on examples not in the training set.
 
 2.
 
+**Answer:** As when lambda = 1, we add the regularization term which will penalize when theta is big. Thus, when lambda = 1, theta will be relatively smaller than without regularization.
+
+3. Which of the following statements about regularization are
+
+true? Check all that apply.
+
 **Answer:**
 
-3.
+A) Consider a classification problem. Adding regularization may cause your classifier to incorrectly classify some training examples (which it had correctly classified when not using regularization, i.e. when λ=0).
 
-**Answer:**
+> Correct.
+
+B) Because logistic regression outputs values 0 ≤h<sub>θ</sub>(x)≤1, its range of output values can only be "shrunk" slightly by regularization anyway, so regularization is generally not helpful for it.
+
+> Wrong.
+
+C) Using a very large value of λ cannot hurt the performance of your hypothesis; the only reason we do not set λ to be too large is to avoid numerical problems.
+
+> Wrong. Very large λ can lead to underfitting problem.
+
+D) Using too large a value of λ can cause your hypothesis to overfit the data; this can be avoided by reducing λ.
+
+> Wrong. Very large λ leads to underfitting problem.
 
 4.
 
