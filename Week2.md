@@ -14,7 +14,7 @@
 
 ### Quiz: Linear Regression with Multiple Variables
 
-1.
+1. ![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week2Quiz1-1.png)
 
 **Answer:** mean = (7921+5184+8836+4761)/4 = 6675.5
 
@@ -60,7 +60,7 @@ i) C = A * B: As A is of dimension 3*2, B is of dimension 2*3, A*B works
 
 ii) C = B' + A: As B transpose is of dimension 3*2, A is of dimension 3*2, B'+A works
 
-2.
+2. ![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week2Quiz2-2.png)
 
 **Answer:**
 
