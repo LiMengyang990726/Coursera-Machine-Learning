@@ -116,7 +116,7 @@ D) Introducing regularization to the model always results in equal or better per
 2.
 
 
-![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week2Quiz2-2.png)
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week3Quiz2-2.png)
 
 **Answer:** As when lambda = 1, we add the regularization term which will penalize when theta is big. Thus, when lambda = 1, theta will be relatively smaller than without regularization.
 
@@ -145,22 +145,22 @@ D) Using too large a value of λ can cause your hypothesis to overfit the data; 
 4.
 
 
-![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week2Quiz2-4-1.png)
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week3Quiz2-4-1.png)
 
-![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week2Quiz2-4-2.png)
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week3Quiz2-4-2.png)
 
 **Answer:**
 
 
-![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week2Quiz2-4-3.png)
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week3Quiz2-4-3.png)
 
 5.
 
 
-![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week2Quiz2-5-1.png)
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week3Quiz2-5-1.png)
 
-![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week2Quiz2-5-2.png)
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week3Quiz2-5-2.png)
 
 **Answer:**
 
-![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week2Quiz2-5-3.png)
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week3Quiz2-5-3.png)
