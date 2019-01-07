@@ -1,6 +1,6 @@
 ## Week 4
 
-### Quiz 1: Neural Networks
+### Quiz 1: Neural Networks Representation
 
 1.
 
@@ -38,4 +38,4 @@ a2 = sigmoid (Theta1 * x);
 
 5.
 
-![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week4Quiz1-4.png)
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week4Quiz1-5.png)
