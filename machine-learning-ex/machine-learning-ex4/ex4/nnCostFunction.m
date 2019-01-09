@@ -42,16 +42,16 @@ Theta2_grad = zeros(size(Theta2));
 
 a1 = [ones(m, 1) X];
 
-z2 = a1*Theta1';                                            % a1 of size 5000*401, Theta1 of size 25*401, z2 of size 5000*25
-a2 = sigmoid(z2);                                           % a2 of size 5000*25
-a2 = [ones(size(a2,1),1) a2];                               % a2 of size 5000*26
+z2 = a1*Theta1';                                                         % a1 of size 5000*401, Theta1 of size 25*401, z2 of size 5000*25
+a2 = sigmoid(z2);                                                        % a2 of size 5000*25
+a2 = [ones(size(a2,1),1) a2];                                            % a2 of size 5000*26
 
-z3 = a2*Theta2';                                            % a2 of size 5000*26, Theta2 of size 10*26, z3 of size 5000*10
-a3 = sigmoid(z3);                                           % a3 of size 5000*10
-h = a3;                                                     % h of size 5000*10
+z3 = a2*Theta2';                                                         % a2 of size 5000*26, Theta2 of size 10*26, z3 of size 5000*10
+a3 = sigmoid(z3);                                                        % a3 of size 5000*10
+h = a3;                                                                  % h of size 5000*10
 
 % implement y vector
-yVector = zeros(m,num_labels);                              % yVector of size 5000*10
+yVector = zeros(m,num_labels);                                           % yVector of size 5000*10
 for i = 1:m
   yVector(i,y(i)) = 1;
 endfor
@@ -75,25 +75,27 @@ J = J + regularization;
 
 for i = 1:m
 
-  a1 = [ones(size(X(i,:)),1) X(i,:)];
+  a1 = [1; X(i,:)'];                                                      % a1 is of size 401*1
 
-  z2 = Theta1*a1';                                           % Theta1 of size 25*401, a1 of size 401*1
-  a2 = sigmoid(z2);                                          % a2 of size 25*1
-  a2 = [1; a2];                                              % a2 of size 26*1
+  z2 = Theta1*a1;                                                         % Theta1 of size 25*401, a1 of size 401*1
+  a2 = sigmoid(z2);                                                       % a2 of size 25*1
+  a2 = [1; a2];                                                           % a2 of size 26*1
 
-  z3 = Theta2*a2;                                            % Theta2 of size 10*26, a2 of size 26*1, z3 of size 10*1
-  a3 = sigmoid(z3);                                          % a3 of size 10*1
-  h = a3;                                                    % a2 of size 10*1
+  z3 = Theta2*a2;                                                         % Theta2 of size 10*26, a2 of size 26*1, z3 of size 10*1
+  a3 = sigmoid(z3);                                                       % a3 of size 10*1
+  h = a3;                                                                 % h of size 10*1
 
-  errorLayer3 = h - (yVector(i,:))';                         % errorLayer3 of size 10*1
-  temp = Theta2'*errorLayer3;                                % Theta2 of size 10*26, errorLayer3 of size 10*1, temp of size 26*1
-  errorLayer2 = (temp(2:end,:)) .* sigmoidGradient(z2);      % z2 of size 25*1, errorLayer2 of size 25*1
+  errorLayer3 = h - (yVector(i,:))';                                      % yVector of size 5000*10, yVector(i,:) of size 1*10, errorLayer3 of size 10*1                                %
+  errorLayer2 = (Theta2'*errorLayer3) .* [1;sigmoidGradient(z2)];         % Theta2 of size 10*26, errorLayer3 of size 10*1, z2 of size 25*1, errorLayer2 of size 26*1
+  errorLayer2 = errorLayer2(2:end,:);                                     % errorLayer2 of size 25*1
 
-  Theta1_grad += errorLayer2 * a1;                          % errorLayer2 of size 25*1, a1 of size 401*1, Theta1_grad of size 25*401
-  Theta2_grad += errorLayer3 * a2';                          % errorLayer3 of size 10*1, a2 of size 26*1, Theta2_grad of size 10*26
+  Theta1_grad = Theta1_grad + errorLayer2 * a1';                          % errorLayer2 of size 25*1, a1 of size 401*1, Theta1_grad of size 25*401
+  Theta2_grad = Theta2_grad + errorLayer3 * a2';                          % errorLayer3 of size 10*1, a2 of size 26*1, Theta2_grad of size 10*26
+
+endfor
 
 Theta1_grad = (1/m) * Theta1_grad;
-Theta1_grad = (1/m) * Theta1_grad;
+Theta2_grad = (1/m) * Theta2_grad;
 
 %         Note: The vector y passed into the function is a vector of labels
 %               containing values from 1..K. You need to map this vector into a
@@ -112,8 +114,8 @@ Theta1_grad = (1/m) * Theta1_grad;
 %               and Theta2_grad from Part 2.
 %
 
-Theta1_grad(:,2:end) = Theta1_grad(:,2:end) + lambda * Theta1(:,2:end);
-Theta2_grad(:,2:end) = Theta2_grad(:,2:end) + lambda * Theta2(:,2:end);
+Theta1_grad(:,2:end) = Theta1_grad(:,2:end) + (lambda/m) * Theta1(:,2:end);
+Theta2_grad(:,2:end) = Theta2_grad(:,2:end) + (lambda/m) * Theta2(:,2:end);
 
 % -------------------------------------------------------------
 
