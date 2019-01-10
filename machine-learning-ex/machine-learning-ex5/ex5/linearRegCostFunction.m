@@ -19,14 +19,16 @@ grad = zeros(size(theta));
 %               You should set J to the cost and grad to the gradient.
 %
 
-h = X * theta;                                                            % X is 12*2, theta is 2*1, h is 12*1
-J = (1/(2*m)) * sum( (h-y).^2 );                                          % J is 12*1
-J(2:end,:) = J(2:end,:) + (lambda/(2*m)) * sum( theta(2:end,:).^2 );
+h = X * theta;                                                                  % X is 12*2, theta is 2*1, h is 12*1
+J = (1/(2*m)) * sum( (h-y).^2 ) + (lambda/(2*m)) * sum( theta(2:end,:).^2 );    % J is 12*1
 
 
-expand = repmat((h-y),1,size(X,2));                                      % expand is 12*2
-grad = (1/m) * sum( X.*expand );                                           % expand is 12*2, X is 12*2, grad is 2*1
-grad(2:end) = grad(2:end) + (lambda/m) * theta(2:end,:);
+expand = repmat((h-y),1,size(X,2));                                             % expand is 12*2
+grad = ( (1/m) * sum( X.*expand ) )';                                           % expand is 12*2, X is 12*2, grad is 2*1
+regularizedGrad = (lambda/m) * theta(2:end,:);
+% disp(size(grad(2:end,:)));
+% disp(size(regularizedGrad));
+grad(2:end,:) = grad(2:end,:) + regularizedGrad;
 
 % =========================================================================
 

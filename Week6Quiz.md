@@ -82,3 +82,76 @@ D) We always prefer models with high variance (over those with high bias) as the
 > C) Correct.
 
 > D) Wrong.
+
+### Quiz2: Machine Learning System Design
+
+1.
+
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week6Quiz2-1.png)
+
+**Explanation:**
+
+Accuracy = (true positives + true negatives) / (total examples) = (85+10) / (1000) = 0.095
+
+2.
+
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week6Quiz2-2.png)
+
+3.
+
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week6Quiz2-3.png)
+
+**Explanation:**
+When the threshold has been decreased to 0.1,
+
+> Recall = (true positives) / (true positives + false negatives), true positives are more, (true positives + false negatives) remains unchanged. Thus, recall increases.
+
+> Precision = (true positives) / (true positives + false positives), true positives are more, (true positives + false positives) are more also. Thus, precision undetermined.
+
+> Accuracy = (true positives + true negatives) / (total examples), true positives are more, (total examples) remains unchanged. Thus, accuracy increases.
+
+4.
+
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week6Quiz2-4.png)
+
+**Explanation:**
+
+> When always predicting non-spam:
+
+> Accuracy = (true positives + true negatives) / (total examples), (true positives + true negatives) is (0 + 99%), total example is 100%. Accuracy = 99%.
+
+> Recall = (true positives) / (true positives + false negatives), true positive is 0, (true positives + false negatives) = actual positive = 1%, thus recall = 0.
+
+> Precision = (true positives) / (true positives + false positives), true positive is 1%, (true positives + false positives) = predicted positive = 0%, thus precision = 0.
+
+> When always predicting spam:
+
+> Accuracy = (true positives + true negatives) / (total examples), (true positives + true negatives) is (1% + 0), total example is 100%. Accuracy = 1%.
+
+> Recall = (true positives) / (true positives + false negatives), true positive is 1%, (true positives + false negatives) = actual positive = 1%, thus recall = 100%.
+
+> Precision = (true positives) / (true positives + false positives), true positive is 1%, (true positives + false positives) = predicted positive = 100%, thus precision = 1%.
+
+> A) Correct.
+
+> B) Correct.
+
+> C) Correct.
+
+> D) Wrong.
+
+5.
+
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week6Quiz2-5.png)
+
+**Explanation:**
+
+> A) When there are not enough useful features, feeding more data will not help.
+
+> B) Not neccessary.
+
+> C) Not always the case.
+
+> D) Large dataset will not overfit the model.
+
+> E) True.
