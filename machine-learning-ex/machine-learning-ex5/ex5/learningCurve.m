@@ -57,7 +57,9 @@ for i = 1:m
 
   error_train(i) = linearRegCostFunction(X(1:i,:), y(1:i), theta, 0);
   error_val(i) = linearRegCostFunction(Xval, yval, theta, 0);
-endfor
+
+end
+
 % -------------------------------------------------------------
 
 % =========================================================================

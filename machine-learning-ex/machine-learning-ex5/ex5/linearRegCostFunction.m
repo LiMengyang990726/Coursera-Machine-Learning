@@ -25,10 +25,10 @@ J = (1/(2*m)) * sum( (h-y).^2 ) + (lambda/(2*m)) * sum( theta(2:end,:).^2 );    
 
 expand = repmat((h-y),1,size(X,2));                                             % expand is 12*2
 grad = ( (1/m) * sum( X.*expand ) )';                                           % expand is 12*2, X is 12*2, grad is 2*1
-regularizedGrad = (lambda/m) * theta(2:end,:);
+regularizedGrad = (lambda/m) * theta(2:end);
 % disp(size(grad(2:end,:)));
 % disp(size(regularizedGrad));
-grad(2:end,:) = grad(2:end,:) + regularizedGrad;
+grad(2:end) = grad(2:end) + regularizedGrad;
 
 % =========================================================================
 
