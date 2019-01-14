@@ -80,3 +80,5 @@ SVM requires a more precise boundary.
 5.
 
 ![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week7Quiz1-5.png)
+
+JbhInZzjhgwHnpET
