@@ -21,15 +21,13 @@ idx = zeros(size(X,1), 1);
 % Note: You can use a for-loop over the examples to compute this.
 %
 
-for i = 1:length(X)
+for i = 1:size(X,1)
   temp = zeros(K,1);  % store a node's distance to all centroids
 
   for j = 1:K
-    x = X(i,1);
-    y = X(i,2);
     c_x = centroids(j,1);
     c_y = centroids(j,2);
-    temp(j) = (x - c_x)^2 + (y - c_y)^2;
+    temp(j,1) = sum( (X(i,:) - centroids(j,:)).^2 );
   endfor
 
   min = Inf;

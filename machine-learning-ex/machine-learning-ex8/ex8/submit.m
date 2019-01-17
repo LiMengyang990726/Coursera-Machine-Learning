@@ -52,10 +52,10 @@ function out = output(partId, auxstring)
   yval = [R(:) ; 1; 0];
   params = [X(:); Theta(:)];
   if partId == '1'
-    [mu, sigma2] = estimateGaussian(X);
+    [mu sigma2] = estimateGaussian(X);
     out = sprintf('%0.5f ', [mu(:); sigma2(:)]);
   elseif partId == '2'
-    [bestEpsilon, bestF1] = selectThreshold(yval, pval);
+    [bestEpsilon bestF1] = selectThreshold(yval, pval);
     out = sprintf('%0.5f ', [bestEpsilon(:); bestF1(:)]);
   elseif partId == '3'
     [J] = cofiCostFunc(params, Y, R, n_u, n_m, ...
