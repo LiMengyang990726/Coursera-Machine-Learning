@@ -24,7 +24,38 @@
 5. Multivariate Gaussian Distribution
 - P(x) ~ Multivariate Gaussian(mu, sigma) where sigma is the covariance matrix, such that we will be able to capture an ellipse shape of cluster (towards any direction)
 
-### Quiz1: Anomaly Detection
+6. Recommender System
+- Content Based Algorithm (we know the content of the product)
+  - Some features defining type of product & some parameters (theta) defining each customer
+  - To learn theta: find the theta that gives the smallest cost function J (a seperate linear regression for each user) using gradient descent
+- Collaborative Filtering Algorithm
+
+Type 1:
+
+    - Randomly initiate certain theta
+    - Compute features according the initialized theta using cost function and gradient descent
+    - Using the features, compute a better set of theta using cost function and gradient descent
+    - Going back and forth (Only we have large set of rated movies)
+
+Type 2:
+
+    - Randomly initiate certain theta and feature values
+    - Minimize the cost function that contains both theta and feature using gradient descent (that is to minimize these two simultaneously)
+    - Given a user, and a movie with certain feature value, predict rating.
+
+Type 3:
+
+    - Given a product A with feature x<sub>a</sub>, find a product B with feature x<sub>b</sub> that the distance from x<sub>a</sub> to x<sub>b</sub> is small
+    - Predict product B as a similar product as product A
+
+7. A prepocessing technique: Mean normalization
+- User who has never rated any product in Recommender System
+- According to the cost function, we will have 0 for all product for the user who hasn't rated any product.
+- Using mean normalization, for each movie, all users' rating sum is tuned to be 0 (each entry - mean of the row)
+- Apply the usual Collaborative Filtering algorithm
+- Add the mean back to obtain the actual theta value
+
+### Quiz 1: Anomaly Detection
 
 1.
 
@@ -60,3 +91,25 @@
 5.
 
 ![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week9Quiz1-5.png)
+
+### Quiz 2:
+
+1.
+
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week9Quiz2-1.png)
+
+2.
+
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week9Quiz2-2.png)
+
+3.
+
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week9Quiz2-3.png)
+
+4.
+
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week9Quiz2-4.png)
+
+5.
+
+![](https://github.com/LiMengyang990726/Coursera-Machine-Learning/blob/master/Pictures/Week9Quiz2-5.png)
