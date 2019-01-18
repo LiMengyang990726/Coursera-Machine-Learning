@@ -53,15 +53,17 @@ for i = 1:num_movies
     end
   end
 end
-J = 0.5 * (J);
+J = 0.5 * (J);                                                              % without regularization
+J = J + (lambda/2) * sum(sum(Theta.^2)) + (lambda/2) * sum(sum(X.^2));      % with regularization
 
 % A vectorized implementation for gradient
 prediction = X * Theta';
-error = prediction - Y;             % error is num_movies * num_users
+error = prediction - Y;                                                     % error is num_movies * num_users
 
-X_grad = (error .* R) * Theta;      % theta is num_users * num_features
-
-Theta_grad = (error .* R)' * X;      % X is num_movies x num_features
+X_grad = (error .* R) * Theta;                                              % theta is num_users * num_features, without regularization
+X_grad = X_grad + lambda * X;                                               % with regularization
+Theta_grad = (error .* R)' * X;                                             % X is num_movies x num_features, without regularization
+Theta_grad = Theta_grad + lambda * Theta;                                   % with regularization
 
 % =============================================================
 
