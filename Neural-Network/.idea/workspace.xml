@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a2df753-2929-4942-81f6-27f62c5c33c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Week2Quiz.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3Quiz.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonCLIApp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SubmitAssignmentNotes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week10Quiz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week11Quiz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week1Quiz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2Quiz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week3Quiz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week4Quiz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week5Quiz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week6Quiz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week7Quiz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week8Quiz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week9Quiz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/README.mlx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/computeCost.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/computeCostMulti.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/ex1.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/ex1_multi.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/ex1data1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/ex1data2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/featureNormalize.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/gradientDescent.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/gradientDescentMulti.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/lib/jsonlab/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/lib/jsonlab/ChangeLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/lib/jsonlab/LICENSE_BSD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/lib/jsonlab/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/lib/jsonlab/jsonopt.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/lib/jsonlab/loadjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/lib/jsonlab/loadubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/lib/jsonlab/mergestruct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/lib/jsonlab/savejson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/lib/jsonlab/saveubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/lib/jsonlab/varargin2struct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/lib/makeValidFieldName.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/lib/submitWithConfiguration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/normalEqn.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/plotData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/submit.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/token.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex1/ex1/warmUpExercise.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/costFunction.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/costFunctionReg.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/ex2.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/ex2_reg.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/ex2data1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/ex2data2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/lib/jsonlab/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/lib/jsonlab/ChangeLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/lib/jsonlab/LICENSE_BSD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/lib/jsonlab/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/lib/jsonlab/jsonopt.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/lib/jsonlab/loadjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/lib/jsonlab/loadubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/lib/jsonlab/mergestruct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/lib/jsonlab/savejson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/lib/jsonlab/saveubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/lib/jsonlab/varargin2struct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/lib/makeValidFieldName.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/lib/submitWithConfiguration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/mapFeature.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/plotData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/plotDecisionBoundary.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/predict.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/sigmoid.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/submit.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex2/ex2/token.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/displayData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/ex3.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/ex3_nn.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/ex3data1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/ex3weights.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/fmincg.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/lib/jsonlab/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/lib/jsonlab/ChangeLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/lib/jsonlab/LICENSE_BSD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/lib/jsonlab/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/lib/jsonlab/jsonopt.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/lib/jsonlab/loadjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/lib/jsonlab/loadubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/lib/jsonlab/mergestruct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/lib/jsonlab/savejson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/lib/jsonlab/saveubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/lib/jsonlab/varargin2struct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/lib/makeValidFieldName.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/lib/submitWithConfiguration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/lrCostFunction.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/oneVsAll.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/predict.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/predictOneVsAll.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/sigmoid.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/submit.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex3/ex3/token.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/checkNNGradients.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/computeNumericalGradient.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/debugInitializeWeights.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/displayData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/ex4.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/ex4data1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/ex4weights.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/fmincg.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/lib/jsonlab/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/lib/jsonlab/ChangeLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/lib/jsonlab/LICENSE_BSD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/lib/jsonlab/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/lib/jsonlab/jsonopt.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/lib/jsonlab/loadjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/lib/jsonlab/loadubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/lib/jsonlab/mergestruct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/lib/jsonlab/savejson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/lib/jsonlab/saveubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/lib/jsonlab/varargin2struct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/lib/makeValidFieldName.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/lib/submitWithConfiguration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/nnCostFunction.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/predict.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/randInitializeWeights.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/sigmoid.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/sigmoidGradient.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/submit.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex4/ex4/token.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/ex5.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/ex5data1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/featureNormalize.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/fmincg.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/learningCurve.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/lib/jsonlab/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/lib/jsonlab/ChangeLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/lib/jsonlab/LICENSE_BSD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/lib/jsonlab/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/lib/jsonlab/jsonopt.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/lib/jsonlab/loadjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/lib/jsonlab/loadubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/lib/jsonlab/mergestruct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/lib/jsonlab/savejson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/lib/jsonlab/saveubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/lib/jsonlab/varargin2struct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/lib/makeValidFieldName.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/lib/submitWithConfiguration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/linearRegCostFunction.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/plotFit.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/polyFeatures.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/submit.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/token.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/trainLinearReg.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex5/ex5/validationCurve.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/dataset3Params.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/emailFeatures.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/emailSample1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/emailSample2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/ex6.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/ex6_spam.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/ex6data1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/ex6data2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/ex6data3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/gaussianKernel.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/getVocabList.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/lib/jsonlab/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/lib/jsonlab/ChangeLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/lib/jsonlab/LICENSE_BSD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/lib/jsonlab/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/lib/jsonlab/jsonopt.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/lib/jsonlab/loadjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/lib/jsonlab/loadubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/lib/jsonlab/mergestruct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/lib/jsonlab/savejson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/lib/jsonlab/saveubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/lib/jsonlab/varargin2struct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/lib/makeValidFieldName.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/lib/submitWithConfiguration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/linearKernel.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/plotData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/porterStemmer.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/processEmail.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/readFile.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/spamSample1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/spamSample2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/spamTest.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/spamTrain.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/submit.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/svmPredict.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/svmTrain.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/token.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/visualizeBoundary.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/visualizeBoundaryLinear.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex6/ex6/vocab.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/bird_small.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/bird_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/computeCentroids.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/displayData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/drawLine.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/ex7.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/ex7_pca.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/ex7data1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/ex7data2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/ex7faces.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/featureNormalize.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/findClosestCentroids.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/kMeansInitCentroids.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/lib/jsonlab/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/lib/jsonlab/ChangeLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/lib/jsonlab/LICENSE_BSD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/lib/jsonlab/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/lib/jsonlab/jsonopt.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/lib/jsonlab/loadjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/lib/jsonlab/loadubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/lib/jsonlab/mergestruct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/lib/jsonlab/savejson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/lib/jsonlab/saveubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/lib/jsonlab/varargin2struct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/lib/makeValidFieldName.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/lib/submitWithConfiguration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/pca.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/plotDataPoints.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/plotProgresskMeans.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/projectData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/recoverData.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/runkMeans.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/submit.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex7/ex7/token.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/checkCostFunction.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/cofiCostFunc.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/computeNumericalGradient.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/estimateGaussian.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/ex8.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/ex8_cofi.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/ex8_movieParams.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/ex8_movies.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/ex8data1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/ex8data2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/fmincg.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/lib/jsonlab/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/lib/jsonlab/ChangeLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/lib/jsonlab/LICENSE_BSD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/lib/jsonlab/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/lib/jsonlab/jsonopt.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/lib/jsonlab/loadjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/lib/jsonlab/loadubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/lib/jsonlab/mergestruct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/lib/jsonlab/savejson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/lib/jsonlab/saveubjson.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/lib/jsonlab/varargin2struct.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/lib/makeValidFieldName.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/lib/submitWithConfiguration.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/loadMovieList.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/movie_ids.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/multivariateGaussian.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/normalizeRatings.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/selectThreshold.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/submit.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/token.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../machine-learning-ex/machine-learning-ex8/ex8/visualizeFit.m" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week2Quiz.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="240">
+                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week3Quiz.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="180">
+                <caret line="12" column="79" lean-forward="true" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Week2Quiz.md" />
+        <option value="$PROJECT_DIR$/Week3Quiz.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="64" />
+    <option name="y" value="23" />
+    <option name="width" value="1362" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Neural-Network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Neural-Network" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a2df753-2929-4942-81f6-27f62c5c33c8" name="Default Changelist" comment="" />
+      <created>1556889962258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556889962258</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="23" width="1362" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1290082" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Week2Quiz.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3Quiz.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="79" lean-forward="true" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
